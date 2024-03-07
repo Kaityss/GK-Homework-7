@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     @IBOutlet var hiLabel: UILabel!
     
     @IBAction func presMeButton(_ sender: Any) {
+        hiLabel.text = "You're doing Great!"
     }
     
     override func viewDidLoad() {
